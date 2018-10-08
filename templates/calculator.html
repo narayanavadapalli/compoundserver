@@ -29,23 +29,22 @@ label{
 	<h1 align="center">Compund Interest</h1>
 	<div class="CI">
 	<label>Principal amount(P):</label>
-	<input type="text" name="principalbox">
+	<input type="text" name="principalbox" value="{{ row[0] }}">
 	<br/>
 	<br/>
 	<label>Annual rate in % (r):</label>
-	<input type="text" name="annualbox">
+	<input type="text" name="annualbox" value="{{ row[1] }}">
 	<br/>
 	<br/>
 	<label>Compunds per year(n):</label>
-	<input type="text" name="compound">
+	<input type="text" name="compound" value="{{ row[2] }}">
 	<br/>
     <br/>
     <label>	Years(t):</label>
-	<input type="text" name="year">
+	<input type="text" name="year" value="{{ row[3] }}">
 	<br/>
 	<br/>
-	<button >Calculate
-		</button>
+	<button> Calculate </button>
 	<br/>
 	<br/>
 	<label>Total Amount</label>
